@@ -1,0 +1,54 @@
+# -------------------
+# Python
+# -------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# -------------------
+# Virtual environments
+# -------------------
+env/
+venv/
+.venv/
+sentiment-env/  # your custom environment
+
+# -------------------
+# Jupyter Notebook Checkpoints
+# -------------------
+.ipynb_checkpoints/
+
+# -------------------
+# VSCode settings (if using VSCode)
+# -------------------
+.vscode/
+
+# -------------------
+# Pytest / logs
+# -------------------
+.pytest_cache/
+*.log
+
+# -------------------
+# Data files (optional)
+# -------------------
+*.csv
+*.tsv
+*.zip
+*.gz
+
+# -------------------
+# Environment / secrets (optional)
+# -------------------
+.env
+.env.*
+
+# -------------------
+# Mac/Linux/Windows system files
+# -------------------
+.DS_Store
+Thumbs.db
